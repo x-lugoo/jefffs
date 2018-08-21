@@ -1,0 +1,7 @@
+USER="root"
+LOGNAME=$USER
+export HOSTNAME=`/bin/hostname`
+export USER=root
+export HOME=/root
+export PS1="[$USER@$HOSTNAME \W]\# "
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
